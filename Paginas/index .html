@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de MOD en PSeInt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ejemplo de MOD en PSeInt</h1>
+    </header>
+    
+ <!-- 20230129 Abraham Rodriguez -->
+    <div class="container">
+        <section id="ejemplo">
+            <h2>Aplicación del operador MOD</h2>
+            <p>Veamos un caso práctico del uso de MOD para determinar si un número es par o impar.</p>
+            <pre>
+Algoritmo ParOImpar
+    Definir num Como Entero
+    Escribir "Ingrese un número: "
+    Leer num
+    Si num MOD 2 = 0 Entonces
+        Escribir "El número es par."
+    Sino
+        Escribir "El número es impar."
+    FinSi
+FinAlgoritmo</pre>
+            <p>Este algoritmo verifica si el residuo de dividir el número por 2 es 0. Si es así, el número es par; de lo contrario, es impar.</p>
+            <p>Otros usos del operador MOD incluyen:</p>
+            <ul>
+                <li>Determinar múltiplos de un número.</li>
+                <li>Simular estructuras cíclicas (como semanas o relojes).</li>
+                <li>Alternar valores en bucles.</li>
+            </ul>
+        </section>
+        <nav>
+            <a href="index.html">Volver al inicio</a>
+        </nav>
+    </div>
+</body>
+</html>

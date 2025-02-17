@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operador MOD en PSeInt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+    
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Operador MOD en PSeInt</h1>
+    </header>
+    
+    <!-- 20230129 Abraham Rodriguez -->
+    <div class="container">
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>El operador <strong>MOD</strong> en PSeInt se usa para obtener el residuo de una división entre dos números enteros.</p>
+            <p>Matemáticamente, si tenemos dos números <em>a</em> y <em>b</em>, la operación <em>a MOD b</em> nos devuelve el residuo de dividir <em>a</em> entre <em>b</em>.</p>
+            <p>Ejemplo: <strong>10 MOD 3 = 1</strong>, porque 10 dividido por 3 es 3 con un residuo de 1.</p>
+        </section>
+        
+        <section id="ejemplo">
+            <h2>Aplicación de MOD en un ejercicio</h2>
+            <p>Supongamos que queremos determinar si un número ingresado es par o impar usando el operador MOD.</p>
+            <pre>
+Algoritmo ParOImpar
+    Definir num Como Entero
+    Escribir "Ingrese un número: "
+    Leer num
+    Si num MOD 2 = 0 Entonces
+        Escribir "El número es par."
+    Sino
+        Escribir "El número es impar."
+    FinSi
+FinAlgoritmo</pre>
+            <p>Este algoritmo verifica si el residuo de dividir el número por 2 es 0. Si es así, el número es par; de lo contrario, es impar.</p>
+        </section>
+    </div>
+
+    <nav>
+        <a href="index .html">Ir a los ejemplos</a>
+    </nav>
+</body>
+</html>
